@@ -1,0 +1,73 @@
+./a.out 1 8 12
+./a.out 1 35 33
+./a.out 1 22 -4
+./a.out 1 178 3
+./a.out 2 8 0
+./a.out 2 35 3
+./a.out 2 22 2
+./a.out 2 178 6
+./a.out 3 23456 7
+./a.out 3 -56093 31
+./a.out 3 7756 1
+./a.out 3 100001 0
+./a.out 4 1
+./a.out 4 -2147483648
+./a.out 4 230874
+./a.out 4 -1000000
+./a.out 5 65336
+./a.out 5 7
+./a.out 5 321
+./a.out 5 3456789
+./a.out 6 256
+./a.out 6 127
+./a.out 6 -256
+./a.out 6 1212
+./a.out 7 -2147483648 1
+./a.out 7 -102378 4
+./a.out 7 5641239 33
+./a.out 7 97623 4
+./a.out 8 1 1
+./a.out 8 127 3
+./a.out 8 123456 45
+./a.out 8 -7896135 10
+./a.out 4 1 2
+./a.out 10 1 2
+./a.out idk 1 2
+
+
+Expected output:
+0
+1 (Position is in form modulo 31)
+1 (Absolute value of position taken)
+0
+9
+43
+22
+242
+23328
+2147427555
+7756
+100000
+-2147483648
+1
+1537327104
+62722047
+11
+3
+3
+13
+1
+0
+1 (Takes absolute value of num)
+0
+-1
+-1
+11282478 (Position in modulo 32)
+1561968
+-2147483648
+-536870897
+301989903
+-7712
+Invalid number of arguments
+Invalid selection
+Invalid input
